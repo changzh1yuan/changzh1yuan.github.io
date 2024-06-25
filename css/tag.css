@@ -1,4 +1,4 @@
-.home {
+.tag {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 10px) and (max-width: 500px) {
-    .home {
+    .tag {
         margin: 10%;
     }
     .avatar {
@@ -43,7 +43,7 @@
 }
 
 @media (min-width: 501px) and (max-width: 1920px) {
-    .home {
+    .tag {
         margin: 5%;
     }
 

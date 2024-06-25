@@ -1,4 +1,4 @@
-.home {
+.archive {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -6,7 +6,7 @@
 }
 
 @media (min-width: 10px) and (max-width: 500px) {
-    .home {
+    .archive {
         margin: 10%;
     }
     .avatar {
@@ -40,15 +40,22 @@
         font-size: 15px;
         font-style: italic;
     }
+
+    .tag-cloud {
+        margin-top: 20%;
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        gap: 10%;
+    }
 }
 
 @media (min-width: 501px) and (max-width: 1920px) {
-    .home {
+    .archive {
         margin: 5%;
     }
 
     .avatar {
-        width: 25%;
+        width: 170px;
         border-radius: 50%;
     }
 
@@ -65,29 +72,10 @@
         text-decoration: underline;
     }
 
-    .article-preview {
-        padding-top: 5%;
-        width: 700px;
-    }
-    
-    .article-preview-top {
-        display: flex;
-        gap: 20px;
-        align-items: baseline;
-    }
-
-    .article-preview-top-date {
-        font-size: 15px;
-        font-style: italic;
-    }
-
-    .article-preview-top-title {
-        font-size: 30px;
-        font-weight: bold;
-    }
-
-    .page-switcher {
-        display: flex;
-        gap: 10px;
+    .tag-cloud {
+        margin-top: 10%;
+        display: grid;
+        grid-template-columns: repeat(8, auto);
+        gap: 10%;
     }
 }
